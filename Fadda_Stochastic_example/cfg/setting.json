@@ -1,0 +1,18 @@
+{
+    "time_horizon": 3,
+    "n_items": 1,
+    "n_machines": 1,
+    "initial_setup": [0],
+    "machine_production": [[10]],
+    "max_inventory_level": [100],
+    "initial_inventory": [0],
+    "holding_costs": [0.01],
+    "lost_sales_costs": [10],
+    "demand_distribution": {
+        "name": "discrete_uniform",
+        "low": 5,
+        "high": 10
+    },
+    "setup_costs": [[1]],
+    "setup_loss": [[1]]
+}
